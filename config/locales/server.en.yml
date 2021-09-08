@@ -1,0 +1,16 @@
+en:
+  site_settings:
+    discourse_trivia_enabled: "Enable the Trivia plugin"
+    trivia_permitted_in_private_messages: "Allow TriviaBot to play in Private Messages (might be abused?)"
+    trivia_permitted_all_categories: "Allow TriviaBot to play in any Category"
+    trivia_permitted_categories: "Allow TriviaBot to play only in these Categories if not allowed to play in all"
+    trivia_bot_user: "User (preferably not a real person) used to ask the question"
+  trivia:
+    errors:
+      general: "Sorry, I'm not well right now. Lets talk some other time. Meanwhile, please ask the admin to check the logs, thank you!"
+      forbiddeninprivatemessages: "Use in private messages has not been permitted, please contact the admin"
+      forbiddenoutsidethesecategories: "Public use of TriviaBot has only been permitted in these Categories: "
+      forbiddenanycategory: "Public use of TriviaBot has not been enabled in any Category, please contact your admin"
+    responses:
+      starting: "Starting quiz"
+      continuing: "Continuing where you left of in"

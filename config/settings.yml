@@ -1,0 +1,23 @@
+plugins:
+  discourse_trivia_enabled:
+    default: true
+    client: false
+  trivia_permitted_in_private_messages:
+    default: false
+    client: false
+  trivia_permitted_all_categories:
+    default: true
+    client: false
+  trivia_permitted_categories:
+    client: false
+    default: ''
+    type: category_list
+    list_type: "compact"
+  trivia_tags:
+    client: false
+    type: list
+    default: "trivia"
+  trivia_bot_user:
+    client: false
+    type: username
+    default: -5
