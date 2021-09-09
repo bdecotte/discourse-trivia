@@ -1,0 +1,16 @@
+fr:
+  site_settings:
+    discourse_trivia_enabled: "Activer le plugin Trivia"
+    trivia_permitted_in_private_messages: "Autoriser le TriviaBot à jouer dans les Messages Directs (abus possibles?)"
+    trivia_permitted_all_categories: "Autoriser le TriviaBot à jouer dans toutes catégories"
+    trivia_permitted_categories: "Autoriser le TriviaBot à jouer seulement dans ces catégories si pas autorisé à jouer dans toutes"
+    trivia_bot_user: "Utilisateur (préférablement pas une personne réelle) utilisé pour poser les questions"
+  trivia:
+    errors:
+      general: "Désolé, il y a un problème. SVP demandez à l'admin de vérifier les logs, merci!"
+      forbiddeninprivatemessages: "L'utilisation dans les Messages Directs n'est pas autorisée, contacter l'admin SVP"
+      forbiddenoutsidethesecategories: "L'utilisation publique du TriviaBot a seulement été permise dans ces catégories: "
+      forbiddenanycategory: "L'utilisation publique du TriviaBot n'a été permise dans aucune catégorie, contacter l'admin SVP"
+    responses:
+      starting: "Starting quiz"
+      continuing: "Continuing where you left of in"
