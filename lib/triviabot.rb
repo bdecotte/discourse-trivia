@@ -33,7 +33,7 @@ module DiscourseTrivia
            already_asked[:"#{already_asked.length + 1}"] = to_be_asked[0].id
         end
       else
-        question = "Toutes les questions ont été posées... Pourquoi ne pas participer à leurs rédaction ? \n Pour recommencer répondre : recommencer un quiz "
+        question = "Toutes les questions ont été posées... Pourquoi ne pas participer à leur rédaction ? \n Pour recommencer répondre : recommencer un quiz "
       end
 
 
