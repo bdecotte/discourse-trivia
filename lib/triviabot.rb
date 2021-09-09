@@ -10,8 +10,8 @@ module DiscourseTrivia
       last_question = already_asked[already_asked.keys.last]
 
 
-      result = Post.joins(:topic, topic: :tags).where(tags: { name: "trivia" }).where('post_number > 1')
-      
+      result = Post.joins(:topic, topic: :tags).where(tags: { name: "trivia" }).where('post_number > 1').order('random()')
+
       to_be_asked = Array.new
 
       result.each do |value|
@@ -33,7 +33,7 @@ module DiscourseTrivia
            already_asked[:"#{already_asked.length + 1}"] = to_be_asked[0].id
         end
       else
-        question = "Toutes les questions ont été posées... Pourquoi ne pas parctiper à leurs rédaction ? \n Pour recommencer répondre : recommencer un quiz "
+        question = "Toutes les questions ont été posées... Pourquoi ne pas participer à leurs rédaction ? \n Pour recommencer répondre : recommencer un quiz "
       end
 
 
