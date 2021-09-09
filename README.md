@@ -1,2 +1,2 @@
 # discourse-trivia
-A plugin that uses use chunck of th discourse-Frotz plugin to give you Q&A on your Discourse forum
+A plugin that uses a large part of the discourse-Frotz plugin to give you Q&A on your Discourse forum
